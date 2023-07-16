@@ -14,7 +14,7 @@
 #define pi acos(-1);
 char alpha [] ={'a' ,'b' ,'c' ,'d' ,'e' ,'f' ,'g' ,'h' ,'i' ,'j' ,'k','l', 'm' ,'n' ,'o' ,'p' ,'q' ,'r', 's' ,'t' ,'u', 'v','w' ,'x', 'y' ,'z'};
 using namespace std;
-const int N = 2e5 + 3 , M = 1e9 + 7 , inf = 1e18;
+const int N = 2e3 + 3 , M = 1e9 + 7 , inf = 1e18;
 int dx[] = {-1,1,0,0};
 int dy[] = {0,0,-1,1};
 
@@ -32,10 +32,51 @@ int dy[] = {0,0,-1,1};
 //     binart_sub(idx + 1 , res);
 //     res.pop_back();
 // }
+// int a[N];
+// 5 2 7 3 4 6
+// int dp[N][N];
+// int LIS(int i , int prv){
+//     int path1 = -inf , path2 = -inf;
 
+//     if(i == n)
+//         return 0;
+
+//     //int &ret = dp[i][prv];
+//     //if(ret != -1)
+//     //return ret;
+//     path1 = LIS(i+1 , prv);//leave
+//     if(a[prv] <= a[i])
+//         path2 = 1 + LIS(i+1 , i);//take
+//     //return ret = max(path1 , path2);
+//     return max(path1 , path2);
+// }
+//text1 = "abcde", text2 = "ace"
+// string t1 , t2;
+// int dp[1000][1000];
+// int LCS(int i , int j){
+//     if(i == t1.size() || j == t2.size())
+//         return 0;
+//     int &ret = dp[i][j];
+//     if(~ret)
+//         return ret;
+//     if(t1[i] == t2[j])
+//         return 1 + LCS(i+1,j+1);
+//     int choice1 = LCS(i , j + 1);
+//     int choice2 = LCS(i + 1, j );
+//     return ret = max(choice1 , choice2);
+// }
 int32_t main()
 {   
+    //memset(dp , -1 , sizeof dp);
     // cin >> n;
     // binart_sub(0 , "");
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cin >> a[i];
+    // }
+    // cout << LIS(0,0);
+    // cin >> t1 >> t2;
+    // cout << LCS(0,0);
     
+
 }

@@ -65,6 +65,16 @@ int dy[] = {0,0,-1,1};
 //     int choice2 = LCS(i + 1, j );
 //     return ret = max(choice1 , choice2);
 // }
+int n , k;
+int a[N];
+int dp[N][N];
+bool solve1(int i , int sum){
+    if(i == n)
+        return sum ==k;
+    int &ret = dp[i][sum];
+    if(~ret)return ret;
+    return ret = (solve1(i+1 , sum + a[i]) || solve1(i+1 , sum));
+}
 int32_t main()
 {   
     //memset(dp , -1 , sizeof dp);
@@ -78,5 +88,19 @@ int32_t main()
     // cin >> t1 >> t2;
     // cout << LCS(0,0);
     
-
+    //DP HOMEWORK #1
+    cin >> n >> k;
+    for (int i = 0; i < n; i++)
+    {
+        /* code */
+        cin >> a[i];
+    }
+    memset(dp , -1 , sizeof dp);
+    // cout << solve1(0 , 0);
+    // Problem #2: LeetCode 416 - Partition Equal Subset Sum
+    //my submission on leetcode :https://leetcode.com/problems/partition-equal-subset-sum/submissions/998460452/
+    //try to optimize my solution (my next sub) : 
+    //Problem #3: LeetCode 1691 - Maximum Height by Stacking Cuboids
+    // my sub : 
+    // optimized : 
 }

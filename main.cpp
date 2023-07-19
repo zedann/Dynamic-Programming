@@ -99,8 +99,8 @@ int32_t main()
     // cout << solve1(0 , 0);
     // Problem #2: LeetCode 416 - Partition Equal Subset Sum
     //my submission on leetcode :https://leetcode.com/problems/partition-equal-subset-sum/submissions/998460452/
-    //try to optimize my solution (my next sub) : 
+    //try to optimize my solution (my next sub) : i think we just check reduction odd(sum is odd) case and use target instead of sum arg
     //Problem #3: LeetCode 1691 - Maximum Height by Stacking Cuboids
-    // my sub : 
-    // optimized : 
+    // my sub : https://leetcode.com/problems/maximum-height-by-stacking-cuboids/submissions/998506079/
+    // optimized : i can't see any optimization right now 
 }

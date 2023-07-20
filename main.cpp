@@ -110,5 +110,6 @@ int32_t main()
     //no optimization it beats 100% of c++ users (:
     //Problem #2: LeetCode 309 - Best Time to Buy and Sell Stock with Cooldown
     //mysub : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/998590289/
-
+    //Problem #3: LeetCode 1671 - Minimum Number of Removals to Make Mountain Array
+    //mysub:https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/submissions/998883671/
 }

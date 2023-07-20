@@ -24,5 +24,14 @@ int32_t main()
         edit distance problem
         my sub:
         https://leetcode.com/problems/edit-distance/submissions/998934156/
+        O(NM)
+        integer problem
+        my sub : https://leetcode.com/problems/integer-break/submissions/998966930/
+        HOMEWORK
+        Problem #1: LeetCode 746 - Min Cost Climbing Stairs
+        mysub1 : https://leetcode.com/problems/min-cost-climbing-stairs/submissions/998982431/
+        Problem #2: LeetCode 279 - Perfect Squares
+        mysub :https://leetcode.com/problems/perfect-squares/submissions/998997761/
+
     */
 }

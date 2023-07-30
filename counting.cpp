@@ -7,6 +7,8 @@
 #define pii pair<int,int>
 #define S second
 #define F first
+#define Y second
+#define X first
 #define el "\n"
 #define int long long
 #define ii int32_t
@@ -15,13 +17,13 @@
 char alpha [] ={'a' ,'b' ,'c' ,'d' ,'e' ,'f' ,'g' ,'h' ,'i' ,'j' ,'k','l', 'm' ,'n' ,'o' ,'p' ,'q' ,'r', 's' ,'t' ,'u', 'v','w' ,'x', 'y' ,'z'};
 using namespace std;
 const int N = 2e5 + 3 , M = 1e9 + 7 , inf = 1e18;
-int dx[] = {-1,1,0,0};
-int dy[] = {0,0,-1,1};
+int ddx[]={-1,-1,-1,0,1,1,1,0};
+int ddy[]={-1,0,1,1,1,0,-1,-1};
+int dx[]={-1,0,1,0};
+int dy[]={0,1,0,-1};
+/* s.erase(unique(s.begin(),s.end()),s.end()); remove all duplicates */
 int32_t main()
 {
-    /*
-    Longest Palindromic Substring
-    mysub:https://leetcode.com/problems/longest-palindromic-substring/submissions/999855669/
-    
-    */
+    //518. Coin Change II
+    //my sub:https://leetcode.com/problems/coin-change-ii/submissions/1007515966/
 }

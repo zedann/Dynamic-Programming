@@ -23,6 +23,14 @@ int dx[]={-1,0,1,0};
 int dy[]={0,1,0,-1};
 int32_t main()
 {
-    //518. Coin Change II
-    //my sub : https://leetcode.com/problems/coin-change-ii/submissions/1007515966/
+    
+    /*
+        63. Unique Paths II
+        mysub : https://leetcode.com/problems/unique-paths-ii/submissions/1007802455/
+        931. Minimum Falling Path Sum
+        mysub : https://leetcode.com/problems/minimum-falling-path-sum/submissions/
+        bad sub using hash table : https://leetcode.com/problems/minimum-falling-path-sum/submissions/
+        576. Out of Boundary Paths
+        mysub : https://leetcode.com/problems/out-of-boundary-paths/submissions/1008793322/
+    */
 }
